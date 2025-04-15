@@ -1,0 +1,136 @@
+4 thread get file 1mb	w_size=5  timeout='5000'
+
+p_loss=0	total time:	0 sec	27825 microsec		0 sec	27990 microsec		0 sec	28249 microsec		0 sec	28487 microsec
+
+p_loss=5	total time:	0 sec	294594 microsec		0 sec	298256 microsec		0 sec	299685 microsec		0 sec	300132 microsec
+
+p_loss=10	total time:	0 sec	784040 microsec		0 sec	789204 microsec		0 sec	789255 microsec		0 sec	791808 microsec
+
+p_loss=20	total time:	1 sec	379965 microsec		1 sec	380176 microsec		1 sec	382549 microsec		1 sec	382593 microsec
+
+p_loss=30	total time:	2 sec	442159 microsec		2 sec	442183 microsec		2 sec	448747 microsec		2 sec	472979 microsec
+
+p_loss=40	total time:	3 sec	738563 microsec		3 sec	738663 microsec		3 sec	790636 microsec		3 sec	830482 microsec
+
+p_loss=50	total time:	5 sec	672696 microsec		5 sec	728714 microsec		5 sec	728742 microsec		5 sec	740622 microsec
+
+p_loss=60	total time:	9 sec	690087 microsec		9 sec	742205 microsec		9 sec	754118 microsec		9 sec	774209 microsec
+
+p_loss=70	total time:	19 sec	666339 microsec		19 sec	806531 microsec		19 sec	830378 microsec		19 sec	934546 microsec
+
+p_loss=75	total time:	27 sec	714459 microsec		27 sec	770508 microsec		27 sec	806532 microsec		28 sec	294595 microsec
+
+
+4 thread get file 1mb	w_size=5  timeout='5000' adaptive da fare
+
+p_loss=0	total time:	0 sec	20669 microsec		0 sec	23529 microsec		0 sec	27876 microsec		0 sec	28878 microsec
+
+p_loss=5	total time:	0 sec	43672 microsec		0 sec	44683 microsec		0 sec	44974 microsec		0 sec	45103 microsec
+
+p_loss=10	total time:	0 sec	54451 microsec		0 sec	57663 microsec		0 sec	58946 microsec		0 sec	62002 microsec
+
+p_loss=20	total time:	0 sec	71282 microsec		0 sec	74162 microsec		0 sec	74485 microsec		0 sec	75156 microsec
+
+p_loss=30	total time:	0 sec	91505 microsec		0 sec	93311 microsec		0 sec	95970 microsec		0 sec	103271 microsec
+
+p_loss=40	total time:	0 sec	149064 microsec		0 sec	150997 microsec		0 sec	151798 microsec		0 sec	169509 microsec
+
+p_loss=50	total time:	9 sec	395157 microsec		9 sec	547208 microsec		9 sec	567216 microsec		9 sec	679341 microsec
+
+p_loss=60	total time:	17 sec	257546 microsec		17 sec	713671 microsec		18 sec	081669 microsec		18 sec	185585 microsec
+
+p_loss=70	total time:	34 sec	427863 microsec		35 sec	392019 microsec		35 sec	420004 microsec		35 sec	579966 microsec
+
+p_loss=75	total time:	54 sec	041527 microsec		54 sec	753744 microsec		54 sec	797574 microsec		54 sec	853724 microsec
+
+
+4 thread get file 1mb	w_size=10  timeout='5000'
+
+p_loss=0	total time:	0 sec	26867 microsec		0 sec	26903 microsec		0 sec	27310 microsec		0 sec	27717 microsec
+
+p_loss=5	total time:	0 sec	307338 microsec		0 sec	311391 microsec		0 sec	319425 microsec		0 sec	323303 microsec
+
+p_loss=10	total time:	0 sec	505136 microsec		0 sec	510246 microsec		0 sec	515227 microsec		0 sec	520462 microsec
+
+p_loss=20	total time:	1 sec	19675 microsec		1 sec	30030 microsec		1 sec	45413 microsec		1 sec	76207 microsec
+
+p_loss=30	total time:	1 sec	606398 microsec		1 sec	611125 microsec		1 sec	618581 microsec		1 sec	633598 microsec
+
+p_loss=40	total time:	2 sec	339316 microsec		2 sec	351185 microsec		2 sec	383144 microsec		2 sec	475305 microsec
+
+p_loss=50	total time:	3 sec	818165 microsec		3 sec	866183 microsec		3 sec	926212 microsec		3 sec	946140 microsec
+
+p_loss=60	total time:	7 sec	62570 microsec		7 sec	99324 microsec		7 sec	133875 microsec		7 sec	149156 microsec
+
+p_loss=70	total time:	12 sec	665312 microsec		12 sec	705386 microsec		12 sec	821410 microsec		13 sec	701505 microsec
+
+p_loss=75	total time:  	17 sec	106541 microsec		17 sec	116898 microsec		17 sec	178063 microsec		17 sec	653487 microsec
+
+
+4 thread get file 1mb	w_size=10  timeout='200' adapt
+
+p_loss=0	total time:	0 sec	22237 microsec		0 sec	25508 microsec		0 sec	25679 microsec		0 sec	26481 microsec
+
+p_loss=5	total time:	0 sec	194884 microsec		0 sec	270310 microsec		0 sec	318456 microsec		0 sec	334447 microsec
+
+p_loss=10	total time:	0 sec	301479 microsec		0 sec	425608 microsec		0 sec	451349 microsec		0 sec	521505 microsec
+
+p_loss=20	total time:	0 sec	975080 microsec		1 sec	31233 microsec		1 sec	143178 microsec		1 sec	151083 microsec
+
+p_loss=30	total time:	1 sec	970264 microsec		2 sec	74208 microsec		2 sec	74214 microsec		2 sec	154085 microsec
+
+p_loss=40	total time:	3 sec	581762 microsec		3 sec	733564 microsec		3 sec	769619 microsec		3 sec	785701 microsec
+
+p_loss=50	total time:	5 sec	876503 microsec		5 sec	908607 microsec		6 sec	60514 microsec		6 sec	108640 microsec
+
+p_loss=60	total time:	9 sec	976046 microsec		10 sec	99980 microsec		10 sec	787933 microsec		10 sec	936141 microsec
+
+p_loss=70	total time:	19 sec	596246 microsec		21 sec	204202 microsec		21 sec	360101 microsec		23 sec	120138 microsec  
+
+p_loss=75	total time:  	31 sec	863206 microsec		32 sec	483044 microsec		32 sec	655199 microsec		38 sec	283136 microsec
+
+
+4 thread get file 4mb	w_size=20  timeout='5000'
+
+p_loss=0	total time:	0 sec	25867 microsec		0 sec	26524 microsec		0 sec	27231 microsec		0 sec	27454 microsec
+
+p_loss=5	total time:	0 sec	176936 microsec		0 sec	191011 microsec		0 sec	197349 microsec		0 sec	207243 microsec
+
+p_loss=10	total time:	0 sec	348771 microsec		0 sec	353698 microsec		0 sec	358723 microsec		0 sec	369397 microsec
+
+p_loss=20	total time:	0 sec	659276 microsec		0 sec	679437 microsec		0 sec	683296 microsec		0 sec	703358 microsec
+
+p_loss=30	total time:	1 sec	8955 microsec		1 sec	29122 microsec		1 sec	117098 microsec		1 sec	193052 microsec
+
+p_loss=40	total time:	1 sec	504206 microsec		1 sec	519645 microsec		1 sec	560803 microsec		1 sec	658412 microsec
+
+p_loss=50	total time:	2 sec	367102 microsec		2 sec	382492 microsec		2 sec	587002 microsec		2 sec	674331 microsec
+
+p_loss=60	total time:	3 sec	917435 microsec		3 sec	989133 microsec		4 sec	316651 microsec		4 sec	378252 microsec
+
+p_loss=70	total time:	6 sec	325061 microsec		6 sec	749510 microsec		6 sec	831545 microsec		7 sec	230929 microsec 
+
+p_loss=75	total time:  	11 sec	240677 microsec		11 sec	512715 microsec		11 sec	752551 microsec		11 sec	828632 microsec
+
+
+4 thread get file 4mb	w_size=20  timeout='200' adaptive
+
+p_loss=0	total time:	0 sec	20646 microsec		0 sec	28363 microsec		0 sec	33600 microsec		0 sec	34380 microsec
+
+p_loss=5	total time:	0 sec	67280 microsec		0 sec	73892 microsec		0 sec	86997 microsec		0 sec	113813 microsec
+
+p_loss=10	total time:	0 sec	301426 microsec		0 sec	316687 microsec		0 sec	404783 microsec		0 sec	456714 microsec
+
+p_loss=20	total time:	1 sec	114187 microsec		1 sec	154073 microsec		1 sec	246191 microsec		1 sec	310244 microsec
+
+p_loss=30	total time:	1 sec	887336 microsec		1 sec	918578 microsec		1 sec	918613 microsec		1 sec	959305 microsec
+
+p_loss=40	total time:	2 sec	858264 microsec		2 sec	866315 microsec		3 sec	230274 microsec		3 sec	242306 microsec
+
+p_loss=50	total time:	5 sec	751223 microsec		5 sec	791129 microsec		5 sec	799140 microsec		5 sec	903250 microsec
+
+p_loss=60	total time:	9 sec	944561 microsec		10 sec	200485 microsec		10 sec	344583 microsec		10 sec	472380 microsec
+
+p_loss=70	total time:	17 sec	551104 microsec		18 sec	231091 microsec		18 sec	447009 microsec		19 sec	542976 microsec  
+
+p_loss=75	total time:  	27 sec	410110 microsec		27 sec	414035 microsec		28 sec	670193 microsec		28 sec	822274 microsec
